@@ -1,0 +1,254 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > react-dnd > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > react-hotkeys > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-ui > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-spacer > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-renderer > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > redux-undo > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-image > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-parallax-background > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-slate > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
+    - ory-editor-plugins-video > ory-editor-ui > ory-editor-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:43:06.043Z'
