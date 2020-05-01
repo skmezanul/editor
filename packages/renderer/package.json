@@ -12,7 +12,9 @@
     "docs": "documentation build ./src/**/*.js --format md --github -o ../../docs/api/renderer.md",
     "prebuild": "npm run clean",
     "clean": "rimraf \"lib/*\"",
-    "flow:generate": "flow-typed install  --flowVersion=0.46.0"
+    "flow:generate": "flow-typed install  --flowVersion=0.46.0",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "peerDependencies": {
     "react": "^15.4.2",
@@ -20,9 +22,11 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "ory-editor-core": "0.0.0"
+    "ory-editor-core": "0.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ory-editor-plugins-slate": "0.0.0"
-  }
+  },
+  "snyk": true
 }
