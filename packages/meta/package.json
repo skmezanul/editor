@@ -12,6 +12,12 @@
     "ory-editor-plugins-spacer": "0.0.0",
     "ory-editor-plugins-parallax-background": "0.0.0",
     "ory-editor-plugins-video": "0.0.0",
-    "ory-editor-ui": "0.0.0"
-  }
+    "ory-editor-ui": "0.0.0",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
