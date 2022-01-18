@@ -14,8 +14,8 @@
     "ory-editor-plugins-video": "0.0.0",
     "ory-editor-renderer": "0.0.0",
     "ory-editor-ui": "0.0.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-tap-event-plugin": "^2.0.1"
   },
   "devDependencies": {
